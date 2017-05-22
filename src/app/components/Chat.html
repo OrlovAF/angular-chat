@@ -1,0 +1,15 @@
+<div class="header"><a ui-sref="login">Logout</a></div>
+<div class="message-content" app-scroll-to-bottom="">
+    <ul>
+        <li ng-repeat="message in messages" ng-class="{'my-message': $ctrl.userLogin == message.name}">
+            <span class="title">{{ message.name }}</span>
+            <p>{{ message.content }}</p><p>{{ message.date | date:"MM/dd/yyyy 'at' h:mma"}}</p>
+        </li>
+    </ul>
+</div>
+<div class="send-message">
+    <form ng-submit="$ctrl.sendMessage($ctrl.messageContent)">
+        <textarea ng-model="$ctrl.messageContent" placeholder="Type your message"></textarea>
+        <button type="submit" class="btn-send">Send</button>
+    </form>
+</div>

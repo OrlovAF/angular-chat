@@ -1,0 +1,69 @@
+.todoapp {
+    line-height: 1em;
+    margin: 30px 0 40px 0;
+}
+body{
+    background-color: #e2eeff;
+}
+.login{
+    padding: 100px;
+    min-width: 300px;
+    background-color: #E4DBBF;
+    text-align: center;
+}
+.message-content{
+    overflow: auto;
+    height:600px;
+    margin: 0 auto;
+}
+.message-content li{
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+.message-content p{
+    color: #DC5B21;
+}
+.send-message{
+    text-align: center;
+    padding: 20px;
+    background-color: #c4dbff;
+}
+.my-message{
+    text-align: right;
+}
+textarea{
+    width: 300px;
+    min-height: 50px;
+}
+.header{
+    text-align: right;
+    padding: 20px;
+    background-color: #c4dbff;
+}
+.title{
+    color: #383127;
+    font-size: medium;
+}
+.btn-send {
+    margin-top: -30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+.btn-send :hover {
+    background: rgb(53, 167, 110);
+    cursor: pointer;
+}
+.btn-send :active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}

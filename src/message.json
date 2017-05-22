@@ -1,0 +1,19 @@
+{ "0":
+    {
+      "name": "Bob",
+      "message": "Hi!",
+      "uuid": "11"
+    },
+  "1":
+    {
+      "name": "Kristi",
+      "message": "Hola!",
+      "uuid": "22"
+    },
+  "2":
+    {
+      "name": "Ivan",
+      "message": "Privet!",
+      "uuid": "33"
+    }
+}
